@@ -11,5 +11,5 @@ object Runner {
     // we could of course also just pass hardcoded arguments to the caliper Runner
     CaliperRunner.main(classOf[Benchmark], args: _*)
   }
-  
+
 }
