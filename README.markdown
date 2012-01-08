@@ -1,8 +1,14 @@
-**Fork for xsbt >0.11.2**
+### Fork for xSBT
+
+---
+**DISCLAIMER.** This project is guaranteed to work corrrectly only with *SBT >0.11.2* (which is currently under development). 
+Starting from *SBT >0.11.2*, `javaOptions` is a *Task*, rather than a *Setting*, which is essential for running benchmarks in 
+a forked process with correct classpath.
+
 ---
 ### Scala Micro-Benchmarking Template ###
   
-This is an SBT template project for creating micro benchmarks for scala code snippets.
+This is an XSBT template project for creating micro benchmarks for scala code snippets.
 It's not much more than a simple wrapper around [Caliper][1], an open-source library for properly
 running benchmark code on the JVM (written by some guys at Google).
 
@@ -15,15 +21,15 @@ that takes care of the details and let's you focus on the code relevant to your 
 
 1. Git-clone this repository:
 
-        $ git clone git://github.com/sirthias/scala-benchmarking-template.git my-benchmark
+        $ git clone git@github.com:remeniuk/scala-benchmarking-template.git my-benchmark
 
 2. Change directory into your clone:
 
         $ cd my-benchmark
 
-3. Launch [SBT](http://code.google.com/p/simple-build-tool):
+3. Launch [XSBT](https://github.com/harrah/xsbt):
 
-        $ sbt
+        $ xsbt
 
 4. Get dependencies:
 
