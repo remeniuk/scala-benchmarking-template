@@ -1,3 +1,5 @@
+**Fork for xsbt >0.11.2**
+---
 ### Scala Micro-Benchmarking Template ###
   
 This is an SBT template project for creating micro benchmarks for scala code snippets.
